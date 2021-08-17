@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+.bg-gradient {
+    background: rgb(2,0,36);
+    background: linear-gradient(232deg, rgba(2,0,36,1) 0%, rgba(148,9,154,1) 35%, rgba(49,4,73,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text-default {
+    color: #fb4833;
+}
+.bg-default {
+    background-color: #fb4833;
+}
+.text-dark {
+    color: #434353;
+}
+.bg-dark {
+    background-color: #434353;
+}
+.bg-darkPurple {
+    background-color: #b82cc3;
+}
+.text-darkPurple {
+    color: #b82cc3;
+}
+
+.left-10 {
+    left: 10%;
+}
+
+.btn {
+    background-color: #d1159f;
+    color: white;
+    border-radius: 50px;
+}
+
+nav button {
+    color: #b82cc3;
+}
+
+.bg-glass {
+    background-color: #640468;  
+    backdrop-filter: blur(5px);
+}
