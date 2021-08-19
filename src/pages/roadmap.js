@@ -52,7 +52,7 @@ export default function Roadmap() {
             </h6>
             <ul className="list-disc text-white pl-4">
               <li className="mt-2">
-                Listing & others (from some of: Topkie, CG, Blockfolio, Azbit, LBank, CMC, Hotbit, Olive)
+                Listing & others (from some of: P2PB2B, CG, Blockfolio, LBank, CMC, Hotbit, Olive)
               </li>
               <li className="mt-1">
                 Airdrop distribution
@@ -77,7 +77,7 @@ export default function Roadmap() {
                 A mobile multi-player game where you earn BirdByte by playing (Racing/Action game)
               </li>
               <li className="mt-1">
-                Vaults (Lock BirdByte for six months to earn rare BirdByte nFts)
+                Vaults (Lock BirdByte for six months to earn rare BirdByte nfts)
               </li>
             </ul>
           </div>
