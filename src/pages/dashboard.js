@@ -16,8 +16,8 @@ export default function Dashboard() {
   const [rewardPerReferrer, setRewardPerReferrer] = useState(0)
   const airdroping = false;
   const history = useHistory();
-
-  function copy() {
+  
+  const copy = () => {
     /* Get the text field */
     var copyText = document.getElementById("myInput");
   

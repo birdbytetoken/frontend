@@ -10,6 +10,20 @@ export default function Home() {
   const [burntPercent, setBurntPercent] = useState(0)
   const [fastRefresh, setFastRefresh] = useState(0)
 
+  const copy = () => {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput");
+  
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+  
+    /* Alert the copied text */
+    alert("Copied contract address");
+  }
 
   const buy = (e) => {
     e.preventDefault()
@@ -65,7 +79,18 @@ export default function Home() {
           </div>
           <div className="md:absolute md:top-10 b-auto right-24 pt-16 -mt-48 sm:mt-0 justify-center text-center">
             <img className="w-20 md:w-96 absolute md:relative top-60 md:top-4 right-10 md:right-0" src="/images/colors-circle.png" alt="colors" />
-            <div className="mt-40 md:mt-12">
+          <div className="mt-40 md:mt-12">
+          <div className="p-1 shadow-sm text-center font-bold mt-4 mb-4 relative">
+                <p>Contract Address:</p>
+              <input
+                readOnly="true"
+                className="text-white text-sm bg-transparent w-full"
+                id="myInput"
+                value="0x4ab12a2c63be0e67f77fa027d9f4c094bb4b0d68" />
+              <i onClick={copy}
+                className="cursor-pointer fas fa-copy absolute right-4 bottom-2 md:right-7 block text-sm"></i>
+              
+            </div>
               <a
                 href={sharedState?.user?.id ? "/dashboard" : "/welcome"}
                 className="btn get-started font-bold outline-none focus:outline-none mr-1 mb-1 uppercase text-xs p-3 md:text-sm shadow-lg ease-linear transition-all duration-150"
