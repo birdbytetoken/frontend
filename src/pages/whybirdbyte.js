@@ -10,14 +10,14 @@ export default function WhyBirdByte() {
             </h2>
             <div className="mt-4">
               <div className="p-2 md:p-4 w-full md:w-6/12 font-semibold text-lg mt-4">
-                <h3 className="text-2xl">Reavealing</h3>
+                <h3 className="text-2xl">Revealing</h3>
                   <p>
-                  Do you know why meme tokens die? because they're shits they die because they are not longer fun.
+                  Do you know why meme tokens die? It's because they lose relevance overtime without any use case.
                   Meme tokens are supposed to be hilarious and fun.
                 </p>
               </div>
               <div className="p-2 md:p-4 w-full md:w-6/12 font-semibold text-lg mt-4">
-                <p> Eeveryday they inject new shitcoins into the market, and they die after one month or less because?
+                <p> Everyday they inject new shitcoins into the market, and they die after one month or less because?
                   They're useless and shits.
                 </p>
                 <ul class="list-none mt-6">

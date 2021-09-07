@@ -9,7 +9,7 @@ export default function Roadmap() {
           <div className="w-full lg:w-6/12 px-4">
             <h2 className="text-4xl font-semibold text-white">BirdByte Official Roadmap</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-white">
-              The BirdByte team have put together a roadmap that we'll serve as a guide through the long term
+              The BirdByte team have put together a roadmap that will serve as a guide through the long term
               development of giant community/defi products.
             </p>
           </div>
